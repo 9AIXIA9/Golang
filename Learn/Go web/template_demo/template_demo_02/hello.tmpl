@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<p>Hello {{  .u1  }}</p>
+<p>m1.age:{{  .m1.Age  }}</p>
+<p>m1:{{  .m1}}</p>
+<p>that's all</p>
+<hr>
+{{/*遇事不决,就写注释*/}}
+{{  $v1 := 100 }}
+{{  $age := .m1.age  }}
+<p>移除空格</p>
+<p>{{- .u1.Name -}}</p>
+<hr>
+
+<hr>
+{{ if $v1 }}
+    {{  $v1  }}
+{{else}}
+    啥都没有
+{{end}}
+<hr>
+
+{{if lt .m1.Age 22}}
+    好好上学
+{{else}}
+    好好上班
+{{end}}
+<hr>
+{{range $idx,$hobby := .hobby }}
+    <p>{{$idx}} - {{$hobby}}</p>
+{{else}}
+    没有爱好
+{{end}}
+<hr>
+{{with .m1}}
+    {{/*相当于把.当成.m1,或者说局部作用域*/}}
+    <p>Hello {{  .Name  }}</p>
+    <p>m1.age:{{  .Age  }}</p>
+    <p>m1:{{  .Gender}}</p>
+    <p>that's all</p>
+{{end}}
+<hr>
+{{index .hobby 2}}
+</body>
+</html>

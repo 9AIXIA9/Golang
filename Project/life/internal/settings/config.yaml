@@ -1,0 +1,32 @@
+app:
+  name: life
+  mode: debug
+  port: ':8082'
+  start_time: '2024-10-12'
+  machine_id: 1
+  language: 'zh'
+auth:
+  token_duration: 168 #7*24 = 168 hour
+  token_location: "Authorization"
+  token_header: "Bearer"
+  token_secret: "月亮是夜晚的伤口，每颗星星都像血滴"
+log:
+  level: debug
+  filename: life.log
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: 127.0.0.1
+  port: '3306'
+  user: root
+  password: woshiXIJIA2005..
+  database_name: life
+  max_open_connections: 200
+  max_idle_connections: 50
+redis:
+  host: 127.0.0.1
+  port: '6379'
+  password: ''
+  database: 0
+  pool_size: 100

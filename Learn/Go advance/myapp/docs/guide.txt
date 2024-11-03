@@ -1,0 +1,15 @@
+api:用于存放api结构、版本和接口规范等代码
+cmd:用于存放要被编译成可执行文件(.exe)的代码
+    myapp:存放main包
+    my tool:存放其他要被编译成可执行文件的包
+docs:用于存放项目文档
+internal:用于存放用于不允许外部项目调用的代码
+     config：配置
+     dao：数据库
+     handler：中间件
+     logic：逻辑处理
+     server：服务器
+pkg:用于存放用于允许外部项目调用的代码
+    models:多板块复用模型
+    utils:多板块复用函数
+tests:用于存放测试用例

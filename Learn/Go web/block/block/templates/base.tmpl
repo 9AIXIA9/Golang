@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模版继承</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .nav {
+            height: 50px;
+            position: fixed;
+            top: 0;
+            background-color: greenyellow;
+        }
+
+        .main {
+            margin-top: 50px;
+        }
+
+        .menu {
+            width: 20%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            background-color: rosybrown;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="nav"></div>
+<div class="main"></div>
+<div class="menu"></div>
+<div class="content center">
+    {{/*不一样的地方用block*/}}
+    {{block "content_1111" .}}
+
+
+
+    {{end}}
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{"level":"DEBUG","time":"2024-10-20T14:30:42.694+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-20T14:30:46.424+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"ERROR","time":"2024-10-20T14:30:52.591+0800","caller":"middlewares/auth.go:44","msg":"错误token"}
+{"level":"INFO","time":"2024-10-20T14:30:52.591+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"page_num=1&page_size=2&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0008739}
+{"level":"FATAL","time":"2024-10-20T14:31:15.287+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-20T21:34:32.602+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-20T21:34:36.058+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"ERROR","time":"2024-10-20T21:34:39.238+0800","caller":"controllers/no_route.go:13","msg":"页面未定义"}
+{"level":"INFO","time":"2024-10-20T21:34:39.239+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/signu","status":200,"method":"POST","path":"/api/v1/signu","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0005539}
+{"level":"FATAL","time":"2024-10-20T21:34:56.856+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-20T23:01:28.058+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-20T23:01:33.925+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"ERROR","time":"2024-10-20T23:01:44.685+0800","caller":"controllers/user.go:20","msg":"填写参数有误","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2024-10-20T23:01:44.685+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0014877}
+{"level":"FATAL","time":"2024-10-21T10:30:57.079+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-21T21:26:12.245+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-21T21:26:15.689+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"FATAL","time":"2024-10-21T21:45:08.162+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-21T22:05:47.296+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"ERROR","time":"2024-10-21T22:05:55.814+0800","caller":"controllers/user.go:20","msg":"填写参数有误","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2024-10-21T22:05:55.814+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000504}
+{"level":"ERROR","time":"2024-10-21T22:05:59.755+0800","caller":"controllers/user.go:20","msg":"填写参数有误","error":"EOF"}
+{"level":"INFO","time":"2024-10-21T22:05:59.756+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0007766}
+{"level":"ERROR","time":"2024-10-21T22:07:48.204+0800","caller":"controllers/user.go:20","msg":"填写参数有误","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2024-10-21T22:07:48.205+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/signup","status":200,"method":"POST","path":"/api/v1/signup","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0007611}
+{"level":"FATAL","time":"2024-10-21T22:08:49.392+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-21T22:08:56.202+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"FATAL","time":"2024-10-21T22:12:41.244+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-22T16:33:10.952+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-22T16:33:14.432+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-22T16:33:19.192+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0047556}
+{"level":"FATAL","time":"2024-10-22T17:58:32.993+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}
+{"level":"DEBUG","time":"2024-10-23T14:00:14.851+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-23T14:00:18.326+0800","caller":"bluebell/main.go:42","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-23T14:00:20.120+0800","caller":"logger/gin_log.go:25","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.0027976}
+{"level":"FATAL","time":"2024-10-23T14:59:56.478+0800","caller":"bluebell/main.go:89","msg":"服务器关机"}

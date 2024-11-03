@@ -1,0 +1,38 @@
+{"level":"DEBUG","time":"2024-09-30T21:13:27.901+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-09-30T21:13:59.178+0800","caller":"web_app/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-09-30T21:13:59.178+0800","caller":"web_app/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T10:06:43.868+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-01T10:09:25.936+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2024-10-01T10:09:56.976+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T10:10:18.773+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T10:10:18.774+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T10:47:14.819+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T10:47:34.118+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T10:47:34.118+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T10:47:35.400+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T10:47:50.989+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T10:47:50.989+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T14:47:46.872+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T14:48:06.631+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T14:48:06.632+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T14:48:34.988+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T15:01:31.457+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T15:01:31.458+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T15:01:44.497+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T15:01:56.271+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T15:01:56.271+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T15:02:02.426+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T15:02:08.931+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T15:02:08.931+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T15:02:16.746+0800","caller":"web_app02/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T15:02:22.409+0800","caller":"web_app02/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T15:02:22.409+0800","caller":"web_app02/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T15:04:53.599+0800","caller":"web_app02/main.go:45","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T15:04:58.752+0800","caller":"web_app02/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T15:04:58.752+0800","caller":"web_app02/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-01T15:06:01.923+0800","caller":"web_app02/main.go:45","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-01T15:06:03.738+0800","caller":"web_app02/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-01T15:06:03.738+0800","caller":"web_app02/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2024-10-02T11:05:12.799+0800","caller":"web_app02/main.go:53","msg":"logger init success..."}
+{"level":"INFO","time":"2024-10-02T11:05:39.884+0800","caller":"web_app02/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2024-10-02T11:05:39.884+0800","caller":"web_app02/main.go:100","msg":"Server exiting"}

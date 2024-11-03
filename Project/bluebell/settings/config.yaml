@@ -1,0 +1,39 @@
+app:
+  name: bluebell
+  mode: dev
+  port: '8081'
+  start_time: '2023-06-17'
+  machine_id: 1
+auth:
+  #7*24 = 168
+  token_duration: 168 #hour
+  token_location: "Authorization"
+  token_header: "Bearer"
+  token_secret: "月亮是夜晚的伤口，每颗星星都像血滴"
+set:
+  #7*24 = 168
+  post_vote_duration: 168 #hour
+  post_per_vote_score: 432 #分数
+  post_default_page: 1
+  post_default_size: 5
+  community_default: 1
+log:
+  level: debug
+  filename: bluebell.log
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: 127.0.0.1
+  port: '3306'
+  user: root
+  password: woshiXIJIA2005..
+  database_name: bluebell
+  max_open_connections: 200
+  max_idle_connections: 50
+redis:
+  host: 127.0.0.1
+  port: '6379'
+  password: ''
+  database: 0
+  pool_size: 100
