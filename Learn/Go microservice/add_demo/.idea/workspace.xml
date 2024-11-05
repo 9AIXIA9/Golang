@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17c39d55-a60d-4fed-9c6a-8f441c89d135" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Go microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/add_client.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/add_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pb/add.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pb/add.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pb/add_grpc.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/add_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pb/add.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api_invoke/.idea/api_invoke.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/hello_client.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/hello_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/proto/hello.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/proto/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_client/proto/hello_grpc.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_server/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_server/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_server/hello_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_server/pb/hello.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_server/pb/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/hello_server/pb/hello_grpc.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/py_client/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/py_client/hello_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/py_client/hello_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello_demo/py_client/pb/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Project/life/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Project/life/docs/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.2.windows-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2oO9m0XNXStDoxXF2BGywV5Jzxi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build add_client.executor": "Run",
+    "Go 构建.go build add_server.executor": "Run",
+    "Go 构建.go build add_server.go.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Users/90609",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Go\Learn\Go microservice\add_demo\client" />
+      <recent name="E:\Go\Learn\Go microservice\add_demo\client\pb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build add_client">
+    <configuration name="go build add_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="add_demo" />
+      <working_directory value="$PROJECT_DIR$/client" />
+      <kind value="PACKAGE" />
+      <package value="add_client" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/client/add_client.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build add_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="add_demo" />
+      <working_directory value="$PROJECT_DIR$/server" />
+      <kind value="PACKAGE" />
+      <package value="add_server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/server/add_server.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build add_server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="add_demo" />
+      <working_directory value="$PROJECT_DIR$/server" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/server/add_server.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build add_client" />
+        <item itemvalue="Go 构建.go build add_server.go" />
+        <item itemvalue="Go 构建.go build add_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

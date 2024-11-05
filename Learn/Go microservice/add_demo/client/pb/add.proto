@@ -1,0 +1,20 @@
+syntax = "proto3";//版本声明
+
+option go_package = "add_server/pb";//项目中import导入生成的go代码的名称
+
+package pb;//proto文件模块
+
+//定义服务
+service Counter{
+  //定义方法
+  rpc Add (AddRequest) returns (AddResponse){}
+}
+
+//定义消息
+message AddRequest{
+  int64 X = 1; //1是字段序号
+  int64 Y = 2; //2是字段序号
+}
+message AddResponse{
+  int64 reply = 1; //1是字段序号
+}
