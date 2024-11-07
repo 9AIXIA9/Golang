@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package book; //声明的是  protobuf包
+
+option go_package = "protobuf_demo/server/pb/book";
+
+import "book/price.proto";  //同目录从--proto_path=xx 从xx开始往下写
+import "author/author.proto"; //异目录同样是从--proto_path=xx 从xx开始往下写
+import "google/protobuf/timestamp.proto";//导入外部proto
+
+message Book{
+  string title = 1;
+  //  引用 price.proto
+  Price price = 2;
+  author.Info auth = 3;
+  google.protobuf.Timestamp date = 4;
+}
+
+service BookService{
+  rpc CreateBook(Book)returns(Book);
+}

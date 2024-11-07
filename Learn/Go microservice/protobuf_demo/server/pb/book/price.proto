@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package book;//声明的是protobuf的包
+//如其他proto文件调用这里的消息类型时
+//使用book.messageName
+
+option go_package = "protobuf_demo/server/pb/book";
+//它指定了在Go代码中应该使用哪个模块路径（或包路径）来引用由.proto文件生成的Go代码
+//即go如何调用proto生成的文件代码
+//go文件要使用就 import"demo/proto/book"
+
+message Price{
+  int64 market_price = 1;
+  int64 sale_price = 2;
+}
+
+
+

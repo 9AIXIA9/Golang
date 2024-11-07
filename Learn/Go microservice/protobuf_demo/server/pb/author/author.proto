@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package author;
+
+option go_package="protobuf_demo/server/pb/author";
+
+message Info{
+  string name = 1;
+}

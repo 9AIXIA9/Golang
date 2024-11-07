@@ -1,0 +1,46 @@
+syntax = "proto3";//第一行必须是这个，否则默认为proto2
+
+package pb;//相当于定义了proto文件的命名空间
+
+//字段编号绝不允许重复和更改(历史上也不行)
+
+message SearchRequest{
+  //默认为singular 即可传可不传 不传时为默认值
+  string query = 1;
+  int32  page_number = 2;
+  double  result_per_page = 3;
+  //为防止出现 新的变量编号与以前某版本重复
+  //protobuf严禁出现此情况
+  reserved 4; //使用reserved占位
+  reserved "ret";
+  enum Day{//自定义类型可以放在message里面也可以在外面
+    WEEKEND = 0;
+    WEEKDAY = 1;
+    OTHERS = 2;
+  }
+  Day d = 5;
+}
+
+enum Week{//自定义类型可以放在message里面也可以在外面
+  option allow_alias = true;//设置别名 如果不设置则每个字段对应一个常量
+  SATURDAY = 0;
+  SUNDAY = 0;
+  WEEKEND = 0;
+  MONDAY = 1;
+  OTHERS = 2;
+}
+
+message SearchResponse{
+  repeated string ret = 1 ;//repeated 可重复类型 ret = ["a","b","c"]
+  Week day = 2;//
+  SearchRequest.Day d = 3;
+  oneof test {//在下列选一个
+    string name = 5;
+    int32 k = 29;
+  }
+  map<string,int32> map_field =4;//map
+}
+
+service SearchService{
+  rpc Search(SearchRequest) returns (SearchResponse);
+}
